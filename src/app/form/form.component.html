@@ -1,0 +1,22 @@
+<div class="custom-container">
+    <form class="mx-auto">
+        <div class="form-row">
+            <div class="form-group col-md-12">
+                <label for="inlineFormInputGroupUsername">Número do Incidente</label>
+                <div class="input-group">
+
+                  <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="ex: INCG45678">
+                </div>
+            </div>              
+            <div class="form-group col-md-12">
+                <label for="dropdown">Selecione a Opção</label>
+                <select class="form-control" id="dropdown">
+                    <option selected>Mudanças por grupo</option>
+                    <option>Incidentes por grupo</option>
+                    <option>Incidentes por sigla</option>
+                </select>
+            </div>
+        </div>
+            <button #btnRedirecionar (click)="irParaPaginaDestino()"  type="button" class="btn btn-primary btn-block">Consulta</button>
+    </form>
+</div>
